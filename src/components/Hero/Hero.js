@@ -16,7 +16,7 @@ const Hero = (props) => (
         <h1 style = {{color:'magenta'}}>{`Hi, I am Jai Phookan`}</h1>
       </SectionText>
       <WritingEffect />
-      <Button onClick = {() => window.open('https://drive.google.com/uc?export=download&id=1gYCNM_9c9kvjcTIhy9jj2H9_4AfB245w', '_blank')}>Download My CV</Button>
+      <Button onClick = {() => window.open('https://drive.google.com/uc?export=download&id=16ZkFHKPxy4i0ztAaR8f6-e6RUf4MVOm-', '_blank')}>Download My CV</Button>
     </LeftSection>
     
   </Section>
