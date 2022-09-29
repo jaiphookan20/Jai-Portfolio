@@ -6,6 +6,7 @@ import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+import GitHubCalendar from '../components/GitHubCalendar/GitHubCalendar';
 
 const Home = () => {
   return (
@@ -17,8 +18,8 @@ const Home = () => {
       <Timeline />
       <Projects />
       <Technologies />
-      {/* <GitHubCalendar username="jaiphookan20" year={new Date().getFullYear()} /> */}
-      <Timeline />
+      {/* <GitHubCalendar username="jaiphookan20" year={new Date().getFullYear()} />x */}
+      {/* <GitHubCalendar/> */}
       {/* <Acomplishments /> */}
     </Layout>
   );
