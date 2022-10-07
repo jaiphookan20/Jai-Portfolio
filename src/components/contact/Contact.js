@@ -1,5 +1,5 @@
 import React from "react";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import {
   Container,
   TextContainer,
@@ -10,15 +10,16 @@ import {
   Submit,
   ButtonDiv,
 } from "./ContactStyles";
+
 export function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs.sendForm(
-      "service_drznc4b",
-      "template_lt1yqbu",
+      "service_eu2lgkl",
+      "template_ct8y6ka",
       e.target,
-      "user_jKW2W7lirF7bfeEVoXP76"
-    ).then(res=>console.log(res))
+      "UqSy5UevwHCEZaLUc"
+    ).then(res=>alert("Sucess! Message Sent" + res.status))
     .catch(err=>console.log(err))
   };
   return (
