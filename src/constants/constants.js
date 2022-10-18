@@ -1,5 +1,15 @@
 export const projects = [
   {
+    title: 'Plant Nursery Application',
+      description: 
+      "Created the REST API for a Plant Nursery Management System. This API performs all the fundamental CRUD operations with user validation at every step. Features include: Registration, Login, Product Search & Filtering, Add to Cart etc ",
+      image: 'https://www.plantsbycreekside.com/wp-content/uploads/2015/03/greenhouse4-H2-2015.jpg',
+      tags: ['Java', 'Spring', 'MySQL', 'Postman'],
+    source: 'https://github.com/Sangram-1996/industrious-steam-9257',
+    visit: 'https://drive.google.com/file/d/1eKnLrlwUok9-FAxlgeeAAoYmzrCp94zu/view?usp=sharing',
+    id: 0,
+  },
+  {
     title: 'Pharmeasy',
       description: 
       "PharmEasy.com is India's larget e-commerce pharmacy player with a valuation of over US$5bn. Features & Pages Created Include: Landing Page, Login/Sign-Up, Search Bar, Order Medicines Page, Product Categories, Add to Cart Page etc.. ",
@@ -7,7 +17,7 @@ export const projects = [
       tags: ['JavaScript', 'JSON', 'CSS'],
     source: 'https://github.com/jaiphookan20/Pharmeasy-Clone',
     visit: 'https://pharmeasy-clone1.vercel.app/index.html',
-    id: 0,
+    id: 1,
   },
   {
     title: 'HomeToGo',
@@ -16,7 +26,7 @@ export const projects = [
     tags: ['JavaScript', 'JSON', 'CSS'],
     source: 'https://github.com/jaiphookan20/HomeToGo-Clone',
     visit: 'https://lively-biscuit-358745.netlify.app/',
-    id: 1,
+    id: 2,
   },
   
 ];
