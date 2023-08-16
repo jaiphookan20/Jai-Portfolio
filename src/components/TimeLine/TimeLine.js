@@ -48,9 +48,9 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Aspiring Back End Developer experienced in Java, Spring Boot, Hibernate and MySQL.
-        Currently engaged in a 30 week military-style intensive Backend Development bootcamp with Masai School. <br />
-        Completed 1 year of the Master of Information Technology program at the University of Melbourne. <br />
+        Back End & Full-Stack focused Developer experienced in Java, Spring, React, NodeJs, MySQL, and MongoDB <br />
+        Currently pursuing a Masters in Information Technology at the University of Melbourne, specialising in Distributed Computing.
+        Previously completed a 30 week military-style, intensive Backend Development bootcamp with Masai School. <br />
         I have a keen interest in product strategy & design, and prior to pursuing a career in software development, I worked in Investment Banking and as a Product Manager at a luxury hospitality brand.  
       </SectionText>
       <CarouselContainer ref = {carouselRef} onScroll = {handleScroll}>

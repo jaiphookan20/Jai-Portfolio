@@ -1,13 +1,23 @@
 export const projects = [
   {
+    title: 'Full Stack Vacation Rental Reservation Platform',
+      description: 
+      "Created a responsive full-stack web application for booking vacation rentals using MongoDB, React Express, NodeJS, Tailwind CSS and AWS S3. Numerous features added included: Registration, Login, Creation of New Listings, Booking functionality etc. Used JWT for authentication",
+      image: '/images/vacation-rental-home-page.png',
+      tags: ['MongoDB', 'React', 'Express', 'NodeJS'],
+    source: 'https://github.com/jaiphookan20/Full-Stack-Vacation-Rental-Platform',
+    visit: 'https://full-stack-vacation-rental-platform-jai.vercel.app/',
+    id: 0,
+  },
+  {
     title: 'Plant Nursery Application',
       description: 
       "Created the REST API for a Plant Nursery Management System. This API performs all the fundamental CRUD operations with user validation at every step. Features include: Registration, Login, Product Search & Filtering, Add to Cart etc ",
-      image: 'https://www.plantsbycreekside.com/wp-content/uploads/2015/03/greenhouse4-H2-2015.jpg',
+      image: '/images/plantnursery.jpeg',
       tags: ['Java', 'Spring', 'MySQL', 'Postman'],
-    source: 'https://github.com/Sangram-1996/industrious-steam-9257',
+    source: 'https://github.com/jaiphookan20/Online-Plant-Nursery-Management-System',
     visit: 'https://drive.google.com/file/d/1eKnLrlwUok9-FAxlgeeAAoYmzrCp94zu/view?usp=sharing',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Pharmeasy',
@@ -17,7 +27,7 @@ export const projects = [
       tags: ['JavaScript', 'JSON', 'CSS'],
     source: 'https://github.com/jaiphookan20/Pharmeasy-Clone',
     visit: 'https://pharmeasy-clone1.vercel.app/index.html',
-    id: 1,
+    id: 2,
   },
   {
     title: 'HomeToGo',
@@ -26,7 +36,7 @@ export const projects = [
     tags: ['JavaScript', 'JSON', 'CSS'],
     source: 'https://github.com/jaiphookan20/HomeToGo-Clone',
     visit: 'https://lively-biscuit-358745.netlify.app/',
-    id: 2,
+    id: 3,
   },
   
 ];

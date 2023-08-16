@@ -1,8 +1,8 @@
 import React from 'react';
 import { DiReact, DiFirebase,DiMongodb, DiCss3, DiJavascript, DiWindows, DiJava  } from 'react-icons/di';
-import {FaNode, FaNodeJs} from 'react-icons/fa'
+import {FaNode, FaNodeJs, FaReact} from 'react-icons/fa'
 import {FcLinux} from 'react-icons/fc'
-import { SiRedux, SiJson, SiHtml5, SiVisualstudiocode, SiJavascript, SiSpring, SiMysql, SiHibernate, SiAmazonaws, SiPostman, SiSwagger} from 'react-icons/si';
+import { SiRedux, SiJson, SiHtml5, SiVisualstudiocode, SiJavascript, SiSpring, SiMysql, SiHibernate, SiAmazonaws, SiPostman, SiSwagger, SiExpress} from 'react-icons/si';
 
 
 const TechIcons = ({tag}) => {
@@ -32,7 +32,17 @@ const TechIcons = ({tag}) => {
         return <DiJava size = '35%' color = '#E06C00'/>
     else if(tag === 'Postman')
         return <SiPostman size = '35%' color = '#E06C00'/>
-    return <SiRedux size = '35%'/>
+    else if(tag === 'MongoDB')
+        return <DiMongodb size = '35%' color = '#559134'/>
+    else if(tag === 'NodeJs')
+        return <FaNodeJs size = '35%' color = '#559134'/>
+    else if(tag === 'Express')
+        return <SiExpress size = '35%' color = '#FFF'/>
+    else if(tag === 'React')
+        return <FaReact size = '35%' color = '#2171B6'/>
+    else{
+        return <FaNodeJs size = '35%' color = '#559134'/>
+    }
     
    
 }
