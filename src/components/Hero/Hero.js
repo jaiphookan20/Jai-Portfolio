@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection} from './HeroStyles';
-import {WritingEffect} from './WritingEffect';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection } from "./HeroStyles";
+import { WritingEffect } from "./WritingEffect";
 
 const Hero = (props) => (
   <Section row nopadding>
@@ -13,12 +17,20 @@ const Hero = (props) => (
         My Personal Portfolio
       </SectionTitle>
       <SectionText>
-        <h1 style = {{color:'magenta'}}>{`Hi, I am Jai Phookan`}</h1>
+        <h1 style={{ color: "magenta" }}>{`Hi, I am Jai Phookan`}</h1>
       </SectionText>
       <WritingEffect />
-      <Button onClick = {() => window.open('https://drive.google.com/uc?export=download&id=1HrEtCbm-Omo94cKG7XsKNIAT52BJK6HS', '_blank')}>Download My CV</Button>
+      <Button
+        onClick={() =>
+          window.open(
+            "https://drive.google.com/file/d/1RpHPbNaFYD4OHTBgzP5CSUFAoN9wAZc4/view?usp=sharing",
+            "_blank"
+          )
+        }
+      >
+        Download My CV
+      </Button>
     </LeftSection>
-    
   </Section>
 );
 

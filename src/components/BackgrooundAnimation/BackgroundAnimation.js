@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const BackgroundAnimation = () => (
-  <div style={{position: "relative"}}>
+  <div style={{ position: "relative" }}>
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
@@ -359,18 +359,29 @@ const BackgroundAnimation = () => (
         </linearGradient>
       </defs>
     </svg>
-    <div style ={{
-      display:"flex",
-      flexDirection:"column",
-      justifyContent:"center",
-      alignItems: "center",
-      width:250,
-      height: 250,
-      position: "absolute",
-      top: 100,
-      left:150
-    }}>
-      <img src='/images/github-profile-pic.png' alt="ajay" style = {{display:"flex",height: "100%", width: "100%", borderRadius:"50%"}} />
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        width: 250,
+        height: 250,
+        position: "absolute",
+        top: 100,
+        left: 150,
+      }}
+    >
+      <img
+        src="/images/github-profile-pic.png"
+        alt="ajay"
+        style={{
+          display: "flex",
+          height: "100%",
+          width: "100%",
+          borderRadius: "50%",
+        }}
+      />
     </div>
   </div>
 );
