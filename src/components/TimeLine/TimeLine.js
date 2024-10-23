@@ -48,10 +48,23 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Back End & Full-Stack focused Developer experienced in Java, Spring, React, NodeJs, MySQL, and MongoDB <br />
-        Currently pursuing a Masters in Information Technology at the University of Melbourne, specialising in Distributed Computing.
-        Previously completed a 30 week military-style, intensive Backend Development bootcamp with Masai School. <br />
-        I have a keen interest in product strategy & design, and prior to pursuing a career in software development, I worked in Investment Banking and as a Product Manager at a luxury hospitality brand.  
+        I'm a recent graduate with a Master of Information Technology in Distributed Computing from the University of Melbourne, achieving a 77% WAM.  <br />
+        My technical skills encompass a wide range of modern web technologies and distributed systems:<br />
+        <br />
+        Languages: TypeScript, JavaScript, Java, Python, C# <br />
+        Frontend Technologies: React, TailwindCSS <br />
+        Backend Technologies: Node.js, Express, Spring, Flask, .NET <br />
+        Databases & Tools: PostgreSQL, MySQL, MongoDB, Redis, ElasticSearch <br />
+        DevOps: AWS, Docker, NGINX, GitHub Actions <br />
+
+        <br />
+        Notable Projects & Experience: <br />
+        OceaniaDevs: A job platform for tech professionals in Australia that I developed and launched independently. Built with Python, Flask, PostgreSQL, Redis, and React, it features optimized search capabilities and a robust CI/CD pipeline. Currently serving a growing user base in beta. <br />
+        <br />
+        Update (Software Development Intern): Led the transformation of a core recommender system for an AI-powered social planning app, achieving a 30% increase in user engagement. Engineered scalable backend services using TypeScript, Node.js, and ElasticSearch. <br />
+        <br />
+        Academic Journal Management Platform: Developed a comprehensive system for an international research journal, earning the Merit Award in Computing & Information Systems. Built secure REST APIs using Node.js and MySQL for complex user management workflows. <br />
+        <br />
       </SectionText>
       <CarouselContainer ref = {carouselRef} onScroll = {handleScroll}>
         <>

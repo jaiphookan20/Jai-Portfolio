@@ -373,7 +373,7 @@ const BackgroundAnimation = () => (
       }}
     >
       <img
-        src="/images/github-profile-pic.png"
+        src="/images/jai_linkedin.png"
         alt="ajay"
         style={{
           display: "flex",
