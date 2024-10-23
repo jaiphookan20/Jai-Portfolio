@@ -1,5 +1,17 @@
 export const projects = [
   {
+    title: "OceaniaDevs: Tech Jobs Platform",
+    description:
+      "OceaniaDevs is a new jobs platform focused entirely on the technology industry in Australia and dedicated to serving technology professionals. This job platform is meant to serve as a more precise and tailored alternative for frustrated job seekers in the technology industry with a far better discovery process than that provided by the dominant platforms.",
+    image: "/images/oceaniadevs-home.png",
+    tags: ["Python", "PostgreSQL", "AWS", "Docker", "Redis", "React"],
+    source:
+      "https://github.com/jaiphookan20/OceaniaDevs",
+    visit:
+      "http://54.79.190.69/",
+    id: 0,
+  },
+  {
     title: "Real-Time Location Tracking App for Families",
     description:
       "Created a Android application that incorporates real-time, simultaneous location tracking for multiple family members & uses geofencing technology to trigger alerts when members enter or exit designated zones",
@@ -9,7 +21,7 @@ export const projects = [
       "https://github.com/jaiphookan20/Android-Real-Time-Location-Tracking-App-for-Families/tree/main",
     visit:
       "https://github.com/jaiphookan20/Android-Real-Time-Location-Tracking-App-for-Families/tree/main",
-    id: 0,
+    id: 1,
   },
   {
     title: "Realtime, Collaborative Drawing Board & Chat Application",
@@ -21,7 +33,7 @@ export const projects = [
       "https://github.com/jaiphookan20/RealTime-Collaborative-DrawingBoard",
     visit:
       "https://github.com/jaiphookan20/RealTime-Collaborative-DrawingBoard",
-    id: 1,
+    id: 2,
   },
   {
     title: "Full Stack Vacation Rental Reservation Platform",
@@ -32,17 +44,6 @@ export const projects = [
     source:
       "https://github.com/jaiphookan20/Full-Stack-Vacation-Rental-Platform",
     visit: "https://full-stack-vacation-rental-platform-jai.vercel.app/",
-    id: 2,
-  },
-  {
-    title: "Plant Nursery Application",
-    description:
-      "Created the REST API for a Plant Nursery Management System. This API performs all the fundamental CRUD operations with user validation at every step. Features include: Registration, Login, Product Search & Filtering, Add to Cart etc ",
-    image: "/images/plantnursery.jpeg",
-    tags: ["Java", "Spring", "MySQL", "Postman"],
-    source:
-      "https://github.com/jaiphookan20/Online-Plant-Nursery-Management-System",
-    visit: "https://jaiphookan20.github.io/Swagger-API-for-Plant-Nursery-API/",
     id: 3,
   },
 ];

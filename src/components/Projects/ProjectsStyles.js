@@ -105,3 +105,10 @@ export const Tag = styled.li`
   color: #d8bfbf;
   font-size: 1.5rem;
 `;
+
+// export const TagList = styled.div`
+//   display: flex;
+//   flex-wrap: wrap; // Allow tags to wrap to the next line
+//   justify-content: center; // Center align the tags
+//   margin: 2px 0; // Optional: Add some margin for spacing
+// `;

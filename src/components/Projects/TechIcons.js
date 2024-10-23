@@ -8,6 +8,7 @@ import {
   DiWindows,
   DiJava,
   DiAndroid,
+  DiNginx
 } from "react-icons/di";
 import { FaNode, FaNodeJs, FaReact } from "react-icons/fa";
 import { FcLinux } from "react-icons/fc";
@@ -26,6 +27,11 @@ import {
   SiExpress,
   SiKotlin,
   SiGooglemaps,
+  SiPostgresql,
+  SiRedis,
+  SiPython,
+  SiDocker,
+  SiGithubactions
 } from "react-icons/si";
 
 const TechIcons = ({ tag }) => {
@@ -50,7 +56,12 @@ const TechIcons = ({ tag }) => {
   else if (tag === "Express") return <SiExpress size="35%" color="#FFF" />;
   else if (tag === "React") return <FaReact size="35%" color="#2171B6" />;
   else if (tag === "Kotlin") return <SiKotlin size="35%" color="#2171B6" />;
-  else if (tag === "Android") return <DiAndroid size="35%" color="#2171B6" />;
+  else if (tag === "PostgreSQL") return <SiPostgresql size="35%" color="#336791" />;
+  else if (tag === "Docker") return <SiDocker size="35%" color="#2496ED" />;
+  else if (tag === "NGINX") return <DiNginx size="35%" color="#009639" />;
+  else if (tag === "Redis") return <SiRedis size="35%" color="#D50032" />;
+  else if (tag === "Python") return <SiPython size="35%" color="#306998" />;
+
   else if (tag === "Google Maps")
     return <SiGooglemaps size="35%" color="#2171B6" />;
   else {
