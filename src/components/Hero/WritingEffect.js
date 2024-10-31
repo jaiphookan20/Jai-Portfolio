@@ -5,7 +5,7 @@ export const WritingEffect = () => {
   return (
     <>
       <ReactTypingEffect
-        text={["Aspiring Back-End Developer"]}
+        text={["Aspiring Software Engineer"]}
         cursorRenderer={cursor => <h1>{cursor}</h1>}
         displayTextRenderer={(text, i) => {
           return (
