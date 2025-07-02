@@ -8,7 +8,7 @@ import {
   DiWindows,
   DiJava,
   DiAndroid,
-  DiNginx
+  DiNginx,
 } from "react-icons/di";
 import { FaNode, FaNodeJs, FaReact } from "react-icons/fa";
 import { FcLinux } from "react-icons/fc";
@@ -31,7 +31,12 @@ import {
   SiRedis,
   SiPython,
   SiDocker,
-  SiGithubactions
+  SiGithubactions,
+  SiTypescript,
+  SiSupabase,
+  SiOpenai,
+  SiRailway,
+  SiTailwindcss,
 } from "react-icons/si";
 
 const TechIcons = ({ tag }) => {
@@ -56,12 +61,20 @@ const TechIcons = ({ tag }) => {
   else if (tag === "Express") return <SiExpress size="35%" color="#FFF" />;
   else if (tag === "React") return <FaReact size="35%" color="#2171B6" />;
   else if (tag === "Kotlin") return <SiKotlin size="35%" color="#2171B6" />;
-  else if (tag === "PostgreSQL") return <SiPostgresql size="35%" color="#336791" />;
+  else if (tag === "PostgreSQL")
+    return <SiPostgresql size="35%" color="#336791" />;
   else if (tag === "Docker") return <SiDocker size="35%" color="#2496ED" />;
   else if (tag === "NGINX") return <DiNginx size="35%" color="#009639" />;
   else if (tag === "Redis") return <SiRedis size="35%" color="#D50032" />;
   else if (tag === "Python") return <SiPython size="35%" color="#306998" />;
-
+  else if (tag === "TypeScript")
+    return <SiTypescript size="35%" color="#3178C6" />;
+  else if (tag === "Supabase") return <SiSupabase size="35%" color="#3ECF8E" />;
+  else if (tag === "OpenAI") return <SiOpenai size="35%" color="#412991" />;
+  else if (tag === "Railway") return <SiRailway size="35%" color="#0B0D0E" />;
+  else if (tag === "TailwindCSS")
+    return <SiTailwindcss size="35%" color="#06B6D4" />;
+  else if (tag === "NodeJS") return <FaNodeJs size="35%" color="#559134" />;
   else if (tag === "Google Maps")
     return <SiGooglemaps size="35%" color="#2171B6" />;
   else {

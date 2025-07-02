@@ -1,21 +1,39 @@
-import React from 'react';
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { projects } from '../../constants/constants';
-import TechIcons from './TechIcons';
+import React from "react";
+import {
+  BlogCard,
+  CardInfo,
+  ExternalLinks,
+  GridContainer,
+  HeaderThree,
+  Hr,
+  TagList,
+  TitleContent,
+  UtilityList,
+} from "./ProjectsStyles";
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { projects } from "../../constants/constants";
+import TechIcons from "./TechIcons";
+import ImageSlider from "./ImageSlider";
 
 const Projects = () => (
-  <Section nopadding id='projects'>
+  <Section nopadding id="projects">
     <SectionDivider />
     <br />
     <SectionTitle>Projects</SectionTitle>
-   
+
     <GridContainer>
       {projects.map((project) => (
         <BlogCard key={project.id}>
-          <Img src={project.image} />
+          <ImageSlider
+            images={project.images || [project.image]}
+            alt={project.title}
+          />
           <TitleContent>
-            <HeaderThree title>{project.title}</HeaderThree>
+            <HeaderThree title="true">{project.title}</HeaderThree>
             <Hr />
           </TitleContent>
           <CardInfo>{project.description}</CardInfo>
@@ -24,7 +42,7 @@ const Projects = () => (
             <TitleContent>Tech Stack</TitleContent>
             <TagList>
               {project.tags.map((tag, i) => (
-                <div key={i} style={{ textAlign: 'center', margin: '5px' }}>
+                <div key={i} style={{ textAlign: "center", margin: "5px" }}>
                   <TechIcons tag={tag} />
                   <div>{tag}</div>
                 </div>
@@ -32,8 +50,12 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={project.visit} target='_blank'>VISIT</ExternalLinks>
-            <ExternalLinks href={project.source} target='_blank'>CODE</ExternalLinks>
+            <ExternalLinks href={project.visit} target="_blank">
+              VISIT
+            </ExternalLinks>
+            <ExternalLinks href={project.source} target="_blank">
+              CODE
+            </ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}
