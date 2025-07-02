@@ -2,9 +2,8 @@ export const projects = [
   {
     title: "MiningConnect: Mining Industry Jobs Platform",
     description: `• Solo developed MiningConnect, a specialized jobs platform for the Australian mining industry; currently in beta
-
+    • Project has been released in beta and scheduled for a wider release in mid July 2025
     • Developed a full-stack solution using React, TypeScript, Tailwind CSS on the frontend and an optimized PostgreSQL backend via Supabase, featuring efficient caching and indexing for seamless data retrieval
-    
     • Built an asynchronously operating daily job scraping and processing service with BullMQ, Redis, and OpenAI APIs to extract, evaluate, and categorize mining jobs using LLMs for greater relevance to applicants
 
     • Implemented a separate Express.js backend server containerized with Docker and deployed on Railway for handling complex business logic and third-party integrations`,
@@ -13,6 +12,7 @@ export const projects = [
       "/images/mc_landing_1.png",
       "/images/mc_job_details.png",
       "/images/mc_job_listing.png",
+      "/images/mc_sign_in.png",
     ],
     tags: [
       "React",
@@ -72,8 +72,8 @@ export const projects = [
     image: "/images/Geofence2.gif",
     images: [
       "/images/Geofence2.gif",
-      "/images/@safenest_1.png",
-      "/images/@safenest_2.png",
+      "/images/safenest_1.png",
+      "/images/safenest_2.png",
     ],
     tags: ["Android", "Java", "Kotlin", "Firebase", "Google Maps"],
     source:
