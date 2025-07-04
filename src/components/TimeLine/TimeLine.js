@@ -84,11 +84,6 @@ const Timeline = () => {
         DevOps: AWS, Docker, NGINX, GitHub Actions <br />
         <br />
         Notable Projects & Experience: <br />
-        Stile Education (Software Engineer Contract): Rebuilt and optimized the
-        Markbook Export service, reducing export times from hours to ~40 minutes
-        for 250,000+ student records. Implemented with Ruby, Sorbet, AWS, and
-        CockroachDB. <br />
-        <br />
         Update (Software Development Intern): Led the transformation of a core
         recommender system for an AI-powered social planning app, achieving a
         30% increase in user engagement and 20% decrease in dropped plans. Built
